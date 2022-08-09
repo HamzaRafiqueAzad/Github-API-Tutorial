@@ -17,6 +17,7 @@
 		BBDBE45428A2708A00E023C5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45328A2708A00E023C5 /* UserModel.swift */; };
 		BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45528A270AC00E023C5 /* APIData.swift */; };
 		BBDBE45828A270EB00E023C5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45728A270EB00E023C5 /* TableViewCell.swift */; };
+		BBDBE45A28A2713F00E023C5 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45928A2713F00E023C5 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BBDBE45328A2708A00E023C5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BBDBE45528A270AC00E023C5 /* APIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
 		BBDBE45728A270EB00E023C5 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BBDBE45928A2713F00E023C5 /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		BBDBE41F28A26FE700E023C5 /* Github API Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				BBDBE45928A2713F00E023C5 /* NetworkMonitor.swift */,
 				BBDBE45228A2702000E023C5 /* Controllers */,
 				BBDBE45128A2701D00E023C5 /* Views */,
 				BBDBE45028A2701A00E023C5 /* Models */,
@@ -237,6 +240,7 @@
 				BBDBE45828A270EB00E023C5 /* TableViewCell.swift in Sources */,
 				BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */,
 				BBDBE42328A26FE700E023C5 /* SceneDelegate.swift in Sources */,
+				BBDBE45A28A2713F00E023C5 /* NetworkMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

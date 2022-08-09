@@ -1,8 +1,8 @@
 //
 //  TableViewCell.swift
-//  iOS Test Assignment
+//  Github API Tutorial
 //
-//  Created by Hamza Rafique Azad on 10/5/22.
+//  Created by Hamza Rafique Azad on 9/8/22.
 //
 
 import UIKit
