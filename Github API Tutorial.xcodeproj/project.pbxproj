@@ -15,6 +15,7 @@
 		BBDBE42D28A26FE800E023C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDBE42B28A26FE800E023C5 /* LaunchScreen.storyboard */; };
 		BBDBE43828A26FE800E023C5 /* Github_API_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE43728A26FE800E023C5 /* Github_API_TutorialTests.swift */; };
 		BBDBE45428A2708A00E023C5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45328A2708A00E023C5 /* UserModel.swift */; };
+		BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45528A270AC00E023C5 /* APIData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		BBDBE44128A26FE800E023C5 /* Github_API_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_API_TutorialUITests.swift; sourceTree = "<group>"; };
 		BBDBE44328A26FE800E023C5 /* Github_API_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_API_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BBDBE45328A2708A00E023C5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BBDBE45528A270AC00E023C5 /* APIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		BBDBE45028A2701A00E023C5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BBDBE45528A270AC00E023C5 /* APIData.swift */,
 				BBDBE45328A2708A00E023C5 /* UserModel.swift */,
 			);
 			path = Models;
@@ -240,6 +243,7 @@
 				BBDBE42528A26FE700E023C5 /* ViewController.swift in Sources */,
 				BBDBE42128A26FE700E023C5 /* AppDelegate.swift in Sources */,
 				BBDBE45428A2708A00E023C5 /* UserModel.swift in Sources */,
+				BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */,
 				BBDBE42328A26FE700E023C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
