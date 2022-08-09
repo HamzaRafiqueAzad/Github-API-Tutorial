@@ -16,6 +16,7 @@
 		BBDBE43828A26FE800E023C5 /* Github_API_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE43728A26FE800E023C5 /* Github_API_TutorialTests.swift */; };
 		BBDBE45428A2708A00E023C5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45328A2708A00E023C5 /* UserModel.swift */; };
 		BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45528A270AC00E023C5 /* APIData.swift */; };
+		BBDBE45828A270EB00E023C5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDBE45728A270EB00E023C5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +40,9 @@
 		BBDBE42E28A26FE800E023C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDBE43328A26FE800E023C5 /* Github API TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Github API TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDBE43728A26FE800E023C5 /* Github_API_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_API_TutorialTests.swift; sourceTree = "<group>"; };
-		BBDBE44128A26FE800E023C5 /* Github_API_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_API_TutorialUITests.swift; sourceTree = "<group>"; };
-		BBDBE44328A26FE800E023C5 /* Github_API_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github_API_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BBDBE45328A2708A00E023C5 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BBDBE45528A270AC00E023C5 /* APIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIData.swift; sourceTree = "<group>"; };
+		BBDBE45728A270EB00E023C5 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,6 @@
 			children = (
 				BBDBE41F28A26FE700E023C5 /* Github API Tutorial */,
 				BBDBE43628A26FE800E023C5 /* Github API TutorialTests */,
-				BBDBE44028A26FE800E023C5 /* Github API TutorialUITests */,
 				BBDBE41E28A26FE700E023C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,15 +105,6 @@
 			path = "Github API TutorialTests";
 			sourceTree = "<group>";
 		};
-		BBDBE44028A26FE800E023C5 /* Github API TutorialUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BBDBE44128A26FE800E023C5 /* Github_API_TutorialUITests.swift */,
-				BBDBE44328A26FE800E023C5 /* Github_API_TutorialUITestsLaunchTests.swift */,
-			);
-			path = "Github API TutorialUITests";
-			sourceTree = "<group>";
-		};
 		BBDBE45028A2701A00E023C5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +117,7 @@
 		BBDBE45128A2701D00E023C5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BBDBE45728A270EB00E023C5 /* TableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -243,6 +234,7 @@
 				BBDBE42528A26FE700E023C5 /* ViewController.swift in Sources */,
 				BBDBE42128A26FE700E023C5 /* AppDelegate.swift in Sources */,
 				BBDBE45428A2708A00E023C5 /* UserModel.swift in Sources */,
+				BBDBE45828A270EB00E023C5 /* TableViewCell.swift in Sources */,
 				BBDBE45628A270AC00E023C5 /* APIData.swift in Sources */,
 				BBDBE42328A26FE700E023C5 /* SceneDelegate.swift in Sources */,
 			);
